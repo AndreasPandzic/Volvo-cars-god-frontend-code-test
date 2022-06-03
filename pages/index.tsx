@@ -19,7 +19,7 @@ export default function HomePage() {
         setStartIndex(startIndex === 0 ? length - 1 : startIndex - 1);
     };
 
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 4; i++) {
         indexArr.push(startIndex + i);
     }
 
@@ -36,7 +36,6 @@ export default function HomePage() {
             <View
                 direction="row"
                 extend={{
-                    width: '100%vw',
                     paddingLeft: '20px',
                     paddingRight: '20px',
                     overflow: 'hidden',

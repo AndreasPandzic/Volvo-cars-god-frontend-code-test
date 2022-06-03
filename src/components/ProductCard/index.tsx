@@ -37,7 +37,7 @@ export default function ProductCard({
             ref={ref}
             extend={{
                 width: '350px',
-                padding: '20px',
+                padding: '10px',
                 textTransform: 'uppercase',
                 '@media (min-width: 480px)': {
                     width: '25%',
@@ -86,7 +86,7 @@ export default function ProductCard({
                 </Flex>
             </Block>
             <div className="card__image-wrapper">
-                <Image src={imageUrl} alt={modelName} layout="fill" quality={100} />
+                <Image src={imageUrl} alt={modelName} layout="fill" loading="eager" quality={100} />
             </div>
             <ul className="productCard__list">
                 <li>
