@@ -90,7 +90,7 @@ export default function HomePage() {
                 />
             </View>
             <View
-                spacing={2}
+                spacing={1}
                 direction="row"
                 justifyContent="center"
                 extend={{
