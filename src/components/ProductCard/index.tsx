@@ -51,7 +51,7 @@ export default function ProductCard({
                 }}
             >
                 <Text
-                    variant="columbus"
+                    variant="kelly"
                     subStyle="emphasis"
                     extend={{ color: '#707070', marginBottom: '6px' }}
                 >
