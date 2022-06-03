@@ -38,7 +38,6 @@ export default function ProductCard({
             extend={{
                 width: '350px',
                 padding: '10px',
-                textTransform: 'uppercase',
                 '@media (min-width: 480px)': {
                     width: '25%',
                     display: show ? 'flex' : 'none',
@@ -53,7 +52,7 @@ export default function ProductCard({
                 <Text
                     variant="kelly"
                     subStyle="emphasis"
-                    extend={{ color: '#707070', marginBottom: '6px' }}
+                    extend={{ color: '#707070', marginBottom: '6px', textTransform: 'uppercase', }}
                 >
                     {bodyType}
                 </Text>
