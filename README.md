@@ -3,7 +3,9 @@
 How to run the assignment:
 
 download repo
+
 npm install
+
 npm run dev
 
 Open http://localhost:3000/ in browser
